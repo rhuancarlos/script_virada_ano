@@ -77,7 +77,7 @@
 		document.getElementById('hora').innerHTML = horas_gerais;
 		setTimeout('viradaano()', 1);
 
-		if(minuto == '00') {
+		if(minuto >= '00') {
 			document.getElementById('final').innerHTML = '<span class="saudacao"><br><br>Feliz 2020 !!<br><small style="font-family: Arial; font-size: 30px;">Visão Transbordante</small></span>';
 		}
 	}
